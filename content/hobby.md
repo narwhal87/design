@@ -1,5 +1,6 @@
 ---
 Title: hobby
+icon: fa fa-user
 ---
 
 ## This is a Hobby page
