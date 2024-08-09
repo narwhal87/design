@@ -5,7 +5,7 @@ Tagline: BTH Design Portfolio page for alpt22 a.k.a. narwhal
 Social:
     - title: Länk till mitt eget Git-repo
       url: https://github.com/narwhal87/design
-      icon: fa fa-github
+      icon: fab fa-github
     - title: Länk till Instagram
       url: https://www.instagram.com/Narvalen
       icon: fa fa-instagram
