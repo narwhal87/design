@@ -27,9 +27,33 @@
         flex-direction: column;
     }
 
+    .landingpage .aside {
+        display: none !important;
+    }
+
+    .landingpage .main {
+        width: 100%;
+    }
+
     .nav ul {
-        flex-direction: column;
+        flex-direction: row;
         padding-bottom: 1em;
+        justify-content: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav .flash-region {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flash-region img {
+
     }
 
     .nav ul li {

@@ -1,0 +1,27 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    
+    <div class="main" role="main">
+        <div class="landingpage">
+            {% if current_page.meta.title != "Technologies" %}
+            <aside class="aside">
+                <ul>
+                {% for page in pages("technologies") %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                </ul>
+            </aside>
+            {% endif %}
+            <main class="main">
+                {{ content }}
+            </main>
+            
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
