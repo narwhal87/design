@@ -6743,3 +6743,7 @@ blockquote {
 .flash-region {
   width: 100%;
 }
+
+.main {
+  background-color: rgb(255, 255, 0);
+}

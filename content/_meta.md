@@ -2,6 +2,7 @@
 # Logo: image/leaf_256x256.png
 Logo: image/tuva_logo_256x256.png
 Tagline: BTH Design Portfolio page for alpt22 a.k.a. narwhal
+icon: fas fa-snowflake
 Social:
     - title: Länk till mitt eget Git-repo
       url: https://github.com/narwhal87/design
@@ -18,8 +19,10 @@ Social:
     - title: Länk till Twitter
       url: https://www.twitter.com
       icon: fa fa-twitter
-Brand:
-    - title: Länk till Discord
-      url: https://www.discord.com/Narval
-      icon: fa fa-discord
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

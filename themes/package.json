@@ -7,8 +7,14 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass narwhal/scss/style.scss narwhal/css/style.css --no-source-map",
-    "style-min": "sass narwhal/scss/style.scss narwhal/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass narwhal/scss/style.scss:narwhal/css/style.css narwhal/scss/style-dark.scss:narwhal/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass narwhal/scss/style.scss:narwhal/css/style.min.css narwhal/scss/style-dark.scss:narwhal/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass narwhal/scss/style-dark.scss narwhal/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass narwhal/scss/style-dark.scss narwhal/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass narwhal/scss/style.scss narwhal/css/style.css --no-source-map",
+    "style-light-min": "sass narwhal/scss/style.scss narwhal/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
